@@ -18,12 +18,6 @@
           </choices>
         </hudson.model.ChoiceParameterDefinition>
         <hudson.model.StringParameterDefinition>
-          <name>suiteXmlFile</name>
-          <description></description>
-          <defaultValue>src\test\resources\xml\hotel_creation_form_tests.xml</defaultValue>
-          <trim>false</trim>
-        </hudson.model.StringParameterDefinition>
-        <hudson.model.StringParameterDefinition>
           <name>baseUrl</name>
           <description></description>
           <defaultValue>http://app.local:8080</defaultValue>
@@ -35,6 +29,12 @@
           <defaultValue>http://localhost:4444/wd/hub</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>suiteXmlFile</name>
+          <description></description>
+          <defaultValue>src/main/test/resources/xml/hotel_creation_form_tests.xml</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
   </properties>
@@ -43,7 +43,7 @@
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
         <url>https://github.com/qa-devchallenge/devchallenge.it---qa---1.git</url>
-        <credentialsId>b1c2fe8b-59b8-4d4f-bfe9-08a66ddcb380</credentialsId>
+        <credentialsId>c635b8be-6a4d-4c67-83fb-282cf2f04c55</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -61,7 +61,11 @@
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers/>
   <concurrentBuild>false</concurrentBuild>
-  <goals>clean test -Dbrowser=${browser} -DbaseUrl=${baseUrl} -DsuiteXmlFile=${suiteXmlFile} -DhubUrl=${hubUrl}</goals>
+  <rootModule>
+    <groupId>it.devchallenge</groupId>
+    <artifactId>devchallenge.it-qa-1</artifactId>
+  </rootModule>
+  <goals>clean test -Dbrowser=${browser} -DbaseUrl=${baseUrl} -DhubUrl=${hubUrl} -DsuiteXmlFile=${suiteXmlFile} site</goals>
   <aggregatorStyleBuild>true</aggregatorStyleBuild>
   <incrementalBuild>false</incrementalBuild>
   <ignoreUpstremChanges>false</ignoreUpstremChanges>

@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-05-31 22:28:57.520 UTC</timestamp>
+  <md5sum>4307af322d715a602115c73808373628</md5sum>
+  <fileName>org.seleniumhq.selenium:selenium-firefox-driver-3.141.59.jar</fileName>
+  <usages>
+    <entry>
+      <string>RegisterHotelPageTests</string>
+      <ranges>2</ranges>
+    </entry>
+    <entry>
+      <string>RegisterHotelPageTests/it.devchallenge:devchallenge.it-qa-1</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

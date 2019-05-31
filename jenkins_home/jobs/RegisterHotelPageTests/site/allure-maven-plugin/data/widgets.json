@@ -1,0 +1,44 @@
+{
+  "hash" : "f0f9583e3b2974a632a09536fa6cd0de93829600",
+  "data" : [ {
+    "name" : "defects",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 1,
+      "message" : "UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: '790d32d521de', ip: '172.21.0.4', os.name: 'Linux', os.arch: 'amd64', os.version: '4.9.125-linuxkit', java.version: '1.8.0_212'\nDriver info: driver.version: RemoteWebDriver",
+      "status" : "BROKEN"
+    } ]
+  }, {
+    "name" : "xunit",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "UI Tests : Hotel Creation Form",
+      "statistic" : {
+        "total" : 10,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 9,
+        "failed" : 0,
+        "broken" : 1
+      }
+    } ]
+  }, {
+    "name" : "behaviors",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Without feature",
+      "statistic" : {
+        "total" : 10,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 9,
+        "failed" : 0,
+        "broken" : 1
+      }
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ ]
+  } ]
+}

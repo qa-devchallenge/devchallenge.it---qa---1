@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-05-31 22:29:01.696 UTC</timestamp>
+  <md5sum>68910bf95dbcf90ce5859128f0f75d1e</md5sum>
+  <fileName>org.slf4j:slf4j-api-1.7.12.jar</fileName>
+  <usages>
+    <entry>
+      <string>RegisterHotelPageTests</string>
+      <ranges>2</ranges>
+    </entry>
+    <entry>
+      <string>RegisterHotelPageTests/it.devchallenge:devchallenge.it-qa-1</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

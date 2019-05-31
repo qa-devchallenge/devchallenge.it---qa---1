@@ -1,0 +1,137 @@
+{
+  "time" : {
+    "start" : 1559341660857,
+    "stop" : 1559341661084,
+    "duration" : 227
+  },
+  "testSuites" : [ {
+    "uid" : "2a628d7a717bcbdf",
+    "name" : "UI Tests : Hotel Creation Form",
+    "title" : "UI Tests : Hotel Creation Form",
+    "time" : {
+      "start" : 1559341660857,
+      "stop" : 1559341661084,
+      "duration" : 227
+    },
+    "statistic" : {
+      "total" : 10,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 9,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "523ff033ec02f406",
+      "name" : "setUp",
+      "title" : "Set up",
+      "time" : {
+        "start" : 1559341660857,
+        "stop" : 1559341660863,
+        "duration" : 6
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "4707e20eb6f753d9",
+      "name" : "verifyThatUserCanAdd_City",
+      "title" : "Verify that user can add city",
+      "time" : {
+        "start" : 1559341661065,
+        "stop" : 1559341661066,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    }, {
+      "uid" : "aba80e4f37dc6837",
+      "name" : "verifyThatUserCanAdd_Country",
+      "title" : "Verify that user can add country",
+      "time" : {
+        "start" : 1559341661070,
+        "stop" : 1559341661071,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    }, {
+      "uid" : "54b3a1e0fa2af857",
+      "name" : "verifyThatUserCanAdd_Description",
+      "title" : "Verify that user can add description",
+      "time" : {
+        "start" : 1559341661071,
+        "stop" : 1559341661072,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    }, {
+      "uid" : "c36b6f5d059abff6",
+      "name" : "verifyThatUserCanAdd_Notes",
+      "title" : "Verify that user can add notes",
+      "time" : {
+        "start" : 1559341661073,
+        "stop" : 1559341661073,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    }, {
+      "uid" : "72e9ee3c5af8f500",
+      "name" : "verifyThatUserCanAdd_ShortDescription",
+      "title" : "Verify that user can add short description",
+      "time" : {
+        "start" : 1559341661074,
+        "stop" : 1559341661074,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    }, {
+      "uid" : "208d1c6074ffa2f",
+      "name" : "verifyThatUserCanEdit_DateOfConstructionField",
+      "title" : "Verify that user can edit date of construction field",
+      "time" : {
+        "start" : 1559341661075,
+        "stop" : 1559341661076,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    }, {
+      "uid" : "2db8a2f11aaf6732",
+      "name" : "verifyThatUserCanEdit_GlobalRatingField",
+      "title" : "Verify that user can edit global rating field",
+      "time" : {
+        "start" : 1559341661076,
+        "stop" : 1559341661078,
+        "duration" : 2
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    }, {
+      "uid" : "651f23bce381440f",
+      "name" : "verifyThatUserCanEdit_NameField",
+      "title" : "Verify that user can edit name field",
+      "time" : {
+        "start" : 1559341661081,
+        "stop" : 1559341661081,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    }, {
+      "uid" : "52b4e1467d0a3a94",
+      "name" : "verifyThatUserCanOpen_newHotelPage",
+      "title" : "Verify that user can open new hotel page",
+      "time" : {
+        "start" : 1559341661084,
+        "stop" : 1559341661084,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "CANCELED"
+    } ]
+  } ]
+}

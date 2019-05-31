@@ -1,0 +1,17 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-05-31 22:28:58.293 UTC</timestamp>
+  <md5sum>d9ca3859ff3586a4b5bc4b228d9aea38</md5sum>
+  <fileName>org.assertj:assertj-core-3.12.2.jar</fileName>
+  <usages>
+    <entry>
+      <string>RegisterHotelPageTests</string>
+      <ranges>2</ranges>
+    </entry>
+    <entry>
+      <string>RegisterHotelPageTests/it.devchallenge:devchallenge.it-qa-1</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

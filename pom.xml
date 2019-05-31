@@ -110,9 +110,9 @@
                         </suiteXmlFiles>
                         <systemPropertyVariables>
                             <baseUrl>http://app.local:8080</baseUrl>
-                            <hubUrl>http://localhost:4444</hubUrl>
+                            <hubUrl>http://hub:4444</hubUrl>
                         </systemPropertyVariables>
-                        <testFailureIgnore>true</testFailureIgnore>
+                        <testFailureIgnore>false</testFailureIgnore>
                         <argLine>
                             -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                         </argLine>
