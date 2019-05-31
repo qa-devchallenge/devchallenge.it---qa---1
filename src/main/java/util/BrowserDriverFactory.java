@@ -4,7 +4,6 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -63,7 +62,7 @@ public class BrowserDriverFactory {
         options.addArguments("--allow-insecure-localhost");
         capabilities.setCapability(ChromeOptions.CAPABILITY, options);
         return new RemoteWebDriver(
-                URI.create(hubUrl + "/wd/hub").toURL(),
+                URI.create(hubUrl).toURL(),
                 capabilities);
     }
 }

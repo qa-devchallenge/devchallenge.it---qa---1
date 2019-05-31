@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-05-31 22:37:04.529 UTC</timestamp>
+  <original>
+    <name>RegisterHotelPageTests/it.devchallenge:devchallenge.it-qa-1</name>
+    <number>4</number>
+  </original>
+  <md5sum>a0ac9ae489d60d7b9db2a2c988a7b910</md5sum>
+  <fileName>it.devchallenge:devchallenge.it-qa-1:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>RegisterHotelPageTests</string>
+      <ranges>4-6,8</ranges>
+    </entry>
+    <entry>
+      <string>RegisterHotelPageTests/it.devchallenge:devchallenge.it-qa-1</string>
+      <ranges>4-6,8</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

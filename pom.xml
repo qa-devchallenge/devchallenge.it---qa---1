@@ -110,7 +110,7 @@
                         </suiteXmlFiles>
                         <systemPropertyVariables>
                             <baseUrl>http://app.local:8080</baseUrl>
-                            <hubUrl>http://hub:4444</hubUrl>
+                            <hubUrl>http://hub:4444/wd/hub</hubUrl>
                         </systemPropertyVariables>
                         <testFailureIgnore>false</testFailureIgnore>
                         <argLine>

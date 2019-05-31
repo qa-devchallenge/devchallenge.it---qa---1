@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.asserts.SoftAssert;
 import ru.yandex.qatools.allure.annotations.Step;
+import util.AllureAttachments;
 
 import java.util.List;
 
@@ -40,6 +41,7 @@ public class RegisterHotelPage extends BasePage {
     public void openPageUrl() {
         log.info("Opening page URL: " + pageUrl);
         openUrl(pageUrl);
+        AllureAttachments.textAttachment("Page URL:", pageUrl);
         log.info("Register Hotel Page opened!");
     }
 
@@ -49,6 +51,7 @@ public class RegisterHotelPage extends BasePage {
         topMenu.hoverOverMenuItem("Article")
                 .hoverOverMenuItem("New")
                 .hoverAndClickMenuItem("Hotel");
+        AllureAttachments.textAttachment("Page URL:", pageUrl);
         log.info("Register Hotel Page opened!");
     }
 

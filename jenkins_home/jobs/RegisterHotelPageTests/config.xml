@@ -26,7 +26,7 @@
         <hudson.model.StringParameterDefinition>
           <name>hubUrl</name>
           <description></description>
-          <defaultValue>http://localhost:4444/wd/hub</defaultValue>
+          <defaultValue>http://hub:4444</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>

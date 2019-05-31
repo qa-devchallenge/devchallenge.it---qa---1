@@ -12,6 +12,9 @@ services:
       - ./jenkins_home:/var/jenkins_home
     networks:
       - selenium-grid
+    links:
+      - hub
+      - chrome
 
   app.local:
     build: ./app
@@ -21,7 +24,7 @@ services:
     networks:
       - selenium-grid
   chrome:
-    image: selenium/node-chrome:3.14.0-gallium
+    image: selenium/node-chrome:latest
     volumes:
       - /dev/shm:/dev/shm
     depends_on:
@@ -37,7 +40,7 @@ services:
       - 5900:5900
 
   hub:
-    image: selenium/hub:3.14.0-gallium
+    image: selenium/hub:latest
     ports:
       - "4444:4444"
     networks:

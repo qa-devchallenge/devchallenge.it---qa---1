@@ -1,0 +1,320 @@
+{
+  "uid" : "bca0765ee16bf002",
+  "name" : "verifyThatUserCanAdd_Description",
+  "title" : "Verify that user can add description",
+  "time" : {
+    "start" : 1559343749948,
+    "stop" : 1559343752259,
+    "duration" : 2311
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 18
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "2d45adb404468fa4",
+    "name" : "UI Tests : Hotel Creation Form",
+    "title" : "UI Tests : Hotel Creation Form"
+  },
+  "steps" : [ {
+    "name" : "openPageUrl",
+    "title" : "Open page url",
+    "time" : {
+      "start" : 1559343749992,
+      "stop" : 1559343750141,
+      "duration" : 149
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "isOpened",
+    "title" : "Is opened",
+    "time" : {
+      "start" : 1559343750147,
+      "stop" : 1559343750192,
+      "duration" : 45
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "typeName[[AUTOTEST] Hotel Soml0S10Z9]",
+    "title" : "Type hotel name: [AUTOTEST] Hotel Soml0S10Z9",
+    "time" : {
+      "start" : 1559343750193,
+      "stop" : 1559343750421,
+      "duration" : 228
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "rateHotel[5]",
+    "title" : "Rate hotel with 5 stars",
+    "time" : {
+      "start" : 1559343750422,
+      "stop" : 1559343750503,
+      "duration" : 81
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "typeDateOfConstruction[1/1/11]",
+    "title" : "Typing Date Of Construction: 1/1/11",
+    "time" : {
+      "start" : 1559343750503,
+      "stop" : 1559343750592,
+      "duration" : 89
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "executeJS[$('#add_hotel\\\\:dateOfConstruction_input').datepicker('setDate', '1/1/11')]",
+      "title" : "Execute Script",
+      "time" : {
+        "start" : 1559343750531,
+        "stop" : 1559343750555,
+        "duration" : 24
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "selectCountry[Ukraine]",
+    "title" : "Select country: Ukraine",
+    "time" : {
+      "start" : 1559343750592,
+      "stop" : 1559343750930,
+      "duration" : 338
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 2
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "click[By.id: add_hotel:country]",
+      "title" : "Click on (By.id: add_hotel:country)",
+      "time" : {
+        "start" : 1559343750626,
+        "stop" : 1559343750725,
+        "duration" : 99
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "click[By.xpath: //*[@data-label='Ukraine']]",
+      "title" : "Click on (By.xpath: //*[@data-label='Ukraine'])",
+      "time" : {
+        "start" : 1559343750773,
+        "stop" : 1559343750895,
+        "duration" : 122
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "selectCity[Kyiv]",
+    "title" : "Select city: Kyiv",
+    "time" : {
+      "start" : 1559343750931,
+      "stop" : 1559343751270,
+      "duration" : 339
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 2
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "click[By.id: add_hotel:city]",
+      "title" : "Click on (By.id: add_hotel:city)",
+      "time" : {
+        "start" : 1559343750959,
+        "stop" : 1559343751071,
+        "duration" : 112
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "click[By.xpath: //*[@data-label='Kyiv']]",
+      "title" : "Click on (By.xpath: //*[@data-label='Kyiv'])",
+      "time" : {
+        "start" : 1559343751124,
+        "stop" : 1559343751232,
+        "duration" : 108
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "typeShortDescription[Short Description AYq5BmLtKF]",
+    "title" : "Type short description: Short Description AYq5BmLtKF",
+    "time" : {
+      "start" : 1559343751275,
+      "stop" : 1559343751499,
+      "duration" : 224
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "typeDesription[AUTOTEST Description]",
+    "title" : "Type description: AUTOTEST Description",
+    "time" : {
+      "start" : 1559343751500,
+      "stop" : 1559343751743,
+      "duration" : 243
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "typeNotes[Notes IMt4Hx2tBg]",
+    "title" : "Type notes: Notes IMt4Hx2tBg",
+    "time" : {
+      "start" : 1559343751744,
+      "stop" : 1559343751928,
+      "duration" : 184
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "submitForm",
+    "title" : "Submit form",
+    "time" : {
+      "start" : 1559343751928,
+      "stop" : 1559343752219,
+      "duration" : 291
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "click[By.name: add_hotel:j_idt62]",
+      "title" : "Click on (By.name: add_hotel:j_idt62)",
+      "time" : {
+        "start" : 1559343751972,
+        "stop" : 1559343752219,
+        "duration" : 247
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "isOpened",
+    "title" : "Is opened",
+    "time" : {
+      "start" : 1559343752219,
+      "stop" : 1559343752259,
+      "duration" : 40
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Verify that user can add Description of new hotel"
+  }, {
+    "name" : "host",
+    "value" : "2df37c2c0c31"
+  }, {
+    "name" : "thread",
+    "value" : "299@2df37c2c0c31.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "UI Tests : Hotel Creation Form"
+  }, {
+    "name" : "suite-title",
+    "value" : "UI Tests : Hotel Creation Form"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

@@ -4,6 +4,7 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import ru.yandex.qatools.allure.annotations.Step;
+import util.AllureAttachments;
 
 import static org.testng.Assert.assertTrue;
 
@@ -19,6 +20,7 @@ public class HotelListPage extends BasePage {
     public void openPageUrl() {
         log.info("Opening page: " + pageUrl);
         openUrl(pageUrl);
+        AllureAttachments.textAttachment("Page URL:", pageUrl);
         assertTrue(isElementDisplayed(listForm), "Hotel List page is opened");
         log.info("Hotels List Page opened!");
     }

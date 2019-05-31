@@ -6,11 +6,11 @@
   <usages>
     <entry>
       <string>RegisterHotelPageTests</string>
-      <ranges>2</ranges>
+      <ranges>2,4-6,8</ranges>
     </entry>
     <entry>
       <string>RegisterHotelPageTests/it.devchallenge:devchallenge.it-qa-1</string>
-      <ranges>2</ranges>
+      <ranges>2,4-6,8</ranges>
     </entry>
   </usages>
   <facets/>
