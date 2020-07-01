@@ -20,7 +20,7 @@
         <selenium.version>3.141.59</selenium.version>
         <allure.maven.version>2.0</allure.maven.version>
         <surfire.plugin.version>2.20</surfire.plugin.version>
-        <log4j.version>2.11.2</log4j.version>
+        <log4j.version>2.13.3</log4j.version>
         <buildDirectory>${project.basedir}/target</buildDirectory>
         <allure.results.directory>${buildDirectory}/allure-results</allure.results.directory>
     </properties>
